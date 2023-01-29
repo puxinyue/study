@@ -1,6 +1,16 @@
 <template>
   <div>
     <h3>hellow world</h3>
+    <NuxtPage></NuxtPage>
+    <NuxtLink to="/">
+      <button>home</button>
+    </NuxtLink>
+    <NuxtLink to="/refresh">
+      <button>refresh</button>
+    </NuxtLink>
+    <NuxtLink to="/login">
+      <button>login</button>
+    </NuxtLink>
   </div>
 </template>
 
