@@ -11,6 +11,9 @@
     <NuxtLink to="/login">
       <button>login</button>
     </NuxtLink>
+    <NuxtLink to="/category">
+      <button>category</button>
+    </NuxtLink>
   </div>
 </template>
 
