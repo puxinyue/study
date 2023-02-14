@@ -1,0 +1,6 @@
+@use "./variable.scss" as *;
+
+.textColor {
+  color: $fsColor;
+  @include border();
+}

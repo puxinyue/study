@@ -1,0 +1,11 @@
+$fsColor: red;
+$primaryColor: pink;
+
+@mixin border() {
+  border: 1px solid $fsColor;
+}
+
+// 导出变量样式
+:export {
+  primaryColor: $primaryColor;
+}

@@ -1,0 +1,6 @@
+@use "./variable.scss" as *;
+
+// 导出变量样式 这个样式要方到xxx.module.scss里面
+:export {
+  primaryColor: $primaryColor;
+}
